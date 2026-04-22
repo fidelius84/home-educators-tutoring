@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 100" width="500" height="100">
+  <defs>
+    <style>
+      .ht { font-family: Georgia, 'Times New Roman', serif; }
+    </style>
+  </defs>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  OPEN BOOK ICON                         -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Left page — Navy -->
+  <path d="M8,85 L8,15 Q8,8 15,8 L50,12 L50,90 Q36,87 20,87 Q11,87 8,85 Z" fill="#1B3A6B"/>
+
+  <!-- Right page — Gold -->
+  <path d="M50,12 L85,8 Q92,8 92,15 L92,85 Q89,87 80,87 Q64,87 50,90 Z" fill="#C9A84C"/>
+
+  <!-- Spine shadow -->
+  <rect x="48" y="11" width="4" height="80" rx="1" fill="#0A1E3D" opacity="0.15"/>
+
+  <!-- Page lines — left -->
+  <rect x="14" y="28" width="28" height="2" rx="1" fill="#FFFFFF" opacity="0.45"/>
+  <rect x="14" y="37" width="28" height="2" rx="1" fill="#FFFFFF" opacity="0.45"/>
+  <rect x="14" y="46" width="28" height="2" rx="1" fill="#FFFFFF" opacity="0.45"/>
+  <rect x="14" y="55" width="22" height="2" rx="1" fill="#FFFFFF" opacity="0.35"/>
+  <rect x="14" y="64" width="25" height="2" rx="1" fill="#FFFFFF" opacity="0.35"/>
+
+  <!-- Page lines — right -->
+  <rect x="57" y="28" width="28" height="2" rx="1" fill="#FFFFFF" opacity="0.45"/>
+  <rect x="57" y="37" width="28" height="2" rx="1" fill="#FFFFFF" opacity="0.45"/>
+  <rect x="57" y="46" width="28" height="2" rx="1" fill="#FFFFFF" opacity="0.45"/>
+  <rect x="57" y="55" width="22" height="2" rx="1" fill="#FFFFFF" opacity="0.35"/>
+  <rect x="57" y="64" width="25" height="2" rx="1" fill="#FFFFFF" opacity="0.35"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  VERTICAL GOLD RULE                     -->
+  <!-- ═══════════════════════════════════════ -->
+  <line x1="108" y1="15" x2="108" y2="85" stroke="#C9A84C" stroke-width="1.5"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  WORDMARK                               -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Primary: Home Educators -->
+  <text x="122" y="50" class="ht" font-size="26" font-weight="bold" fill="#1B3A6B" letter-spacing="0.4">Home Educators</text>
+
+  <!-- Gold hairline rule -->
+  <line x1="122" y1="58" x2="478" y2="58" stroke="#C9A84C" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Secondary: TUTORING -->
+  <text x="124" y="75" class="ht" font-size="14" fill="#C9A84C" letter-spacing="5.5">TUTORING</text>
+
+</svg>

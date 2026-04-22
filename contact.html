@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Home Educators Tutoring</title>
+  <meta name="description" content="Get in touch with Home Educators Tutoring. Book a free trial lesson, ask about our services, or enquire about enrolment. We'd love to hear from you.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ════════════════════════════════════════ -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html" aria-label="Home Educators Tutoring — Home">
+        <img src="assets/logo.svg" alt="Home Educators Tutoring" height="42">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html" class="btn btn-primary nav-cta">Book a Free Trial</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE HERO ══════════════════════════════════════════ -->
+  <div class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> &rsaquo; Contact</p>
+      <h1>Get in Touch</h1>
+      <p>We'd love to hear from you. Whether you're ready to book or just exploring your options, we're here to help.</p>
+    </div>
+  </div>
+
+  <!-- ═══ CONTACT SECTION ════════════════════════════════════ -->
+  <section class="section bg-off-white">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left: Channels -->
+        <div class="contact-info">
+          <h3>Ways to Reach Us</h3>
+          <p style="color:var(--grey-mid); margin-bottom:28px; font-size:0.95rem;">We aim to respond to all enquiries within one working day. Choose whichever channel works best for you.</p>
+
+          <a href="mailto:enrol@homeeducatorstutoring.com" class="contact-channel">
+            <div class="contact-channel-icon">✉️</div>
+            <div>
+              <div class="contact-channel-label">New Enrolments</div>
+              <div class="contact-channel-value">enrol@homeeducatorstutoring.com</div>
+            </div>
+          </a>
+
+          <a href="mailto:trial@homeeducatorstutoring.com" class="contact-channel">
+            <div class="contact-channel-icon">🎓</div>
+            <div>
+              <div class="contact-channel-label">Book a Free Trial Lesson</div>
+              <div class="contact-channel-value">trial@homeeducatorstutoring.com</div>
+            </div>
+          </a>
+
+          <a href="mailto:info@homeeducatorstutoring.com" class="contact-channel">
+            <div class="contact-channel-icon">💬</div>
+            <div>
+              <div class="contact-channel-label">General Enquiries</div>
+              <div class="contact-channel-value">info@homeeducatorstutoring.com</div>
+            </div>
+          </a>
+
+          <a href="tel:+447984568080" class="contact-channel">
+            <div class="contact-channel-icon">📞</div>
+            <div>
+              <div class="contact-channel-label">Phone</div>
+              <div class="contact-channel-value">+44 7984 568 080</div>
+            </div>
+          </a>
+
+          <div style="margin-top:36px; padding:24px; background:var(--gold-pale); border-radius:var(--radius); border-left:4px solid var(--gold);">
+            <h4 style="color:var(--navy); margin-bottom:8px;">Free Trial Lesson</h4>
+            <p style="color:var(--grey-mid); font-size:0.9rem; margin:0;">Your child's first session is completely free and carries no commitment. It's simply an opportunity for them to meet their tutor and for us to understand their learning needs.</p>
+          </div>
+
+          <div style="margin-top:16px; padding:24px; background:var(--white); border-radius:var(--radius); box-shadow:var(--shadow-sm);">
+            <h4 style="color:var(--navy); margin-bottom:8px;">Response Times</h4>
+            <p style="color:var(--grey-mid); font-size:0.9rem; margin-bottom:8px;">📩 Email: within 1 working day</p>
+            <p style="color:var(--grey-mid); font-size:0.9rem; margin:0;">📅 Trial bookings: usually within 48 hours</p>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="contact-form-wrap">
+          <h3>Send Us a Message</h3>
+          <form action="mailto:enrol@homeeducatorstutoring.com" method="post" enctype="text/plain">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="First Name" placeholder="Your first name" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="Last Name" placeholder="Your last name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="Email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="childAge">Child's Age</label>
+                <select id="childAge" name="Child Age">
+                  <option value="">Select age range</option>
+                  <option value="5-7">5–7 (KS1)</option>
+                  <option value="7-11">7–11 (KS2)</option>
+                  <option value="11-14">11–14 (KS3)</option>
+                  <option value="14-16">14–16 (KS4 / GCSE)</option>
+                  <option value="16-18">16–18 (KS5 / A-Level)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject of Interest</label>
+                <select id="subject" name="Subject">
+                  <option value="">Select a subject</option>
+                  <option value="english">English</option>
+                  <option value="maths">Maths</option>
+                  <option value="science">Science (Combined)</option>
+                  <option value="biology">Biology</option>
+                  <option value="chemistry">Chemistry</option>
+                  <option value="physics">Physics</option>
+                  <option value="history">History</option>
+                  <option value="geography">Geography</option>
+                  <option value="languages">Modern Languages</option>
+                  <option value="multiple">Multiple Subjects</option>
+                  <option value="other">Other / Not Sure</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="enquiryType">Type of Enquiry</label>
+              <select id="enquiryType" name="Enquiry Type">
+                <option value="">Select enquiry type</option>
+                <option value="trial">Book a free trial lesson</option>
+                <option value="enrol">Enrol for regular sessions</option>
+                <option value="info">Request more information</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="Message" placeholder="Tell us a little about your child, their current level, and what you're hoping to achieve..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-navy" style="width:100%; font-size:1rem; padding:15px;">Send Message</button>
+            <p style="font-size:0.78rem; color:var(--grey-mid); margin-top:12px; text-align:center;">We respond to all messages within one working day.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FAQ ════════════════════════════════════════════════ -->
+  <section class="section bg-white">
+    <div class="container text-center">
+      <span class="section-tag">Common Questions</span>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="gold-rule"></div>
+      <p class="section-lead">Everything you need to know before booking. If you don't find your answer here, just get in touch.</p>
+
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question">How does the free trial lesson work?</button>
+          <div class="faq-answer">
+            <p>The trial lesson is a full-length session (usually 60 minutes) at no charge. It gives your child the chance to meet their tutor in a relaxed, pressure-free environment, and allows us to carry out an informal assessment of their current level and learning needs. There is absolutely no commitment to continue after the trial — it simply helps both sides decide if it's the right fit.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Do you teach online or in person?</button>
+          <div class="faq-answer">
+            <p>We offer both. Online sessions are delivered via video call (Zoom or Google Meet) using shared screen tools, interactive whiteboards, and digital resources — all you need is a computer or tablet with a stable internet connection. In-person sessions are available within our local area; please contact us to confirm availability for your location.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">What ages and key stages do you cover?</button>
+          <div class="faq-answer">
+            <p>We work with learners from age 5 right through to 18, covering Key Stages 1–5. This includes early years literacy and numeracy, primary curriculum subjects, GCSE preparation (KS4), and A-Level support (KS5). Each programme is tailored to the individual child's age, level, and goals.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Do I need to follow the national curriculum?</button>
+          <div class="faq-answer">
+            <p>Not at all. As a home-educating family, you have complete freedom in how you educate your child. We work alongside whatever approach you've chosen — whether that's a structured curriculum, an eclectic or child-led method, or something in between. Our role is to complement your approach, not replace it.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Are your tutors DBS-checked?</button>
+          <div class="faq-answer">
+            <p>Yes. All our tutors hold an enhanced DBS (Disclosure and Barring Service) check, which is the highest level of background check available for those working with children. We also hold up-to-date safeguarding training. The safety and wellbeing of the children we work with is our highest priority.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">How often do sessions take place?</button>
+          <div class="faq-answer">
+            <p>This is entirely up to you. Most families opt for one or two sessions per week, but we can accommodate more frequent sessions during intensive exam preparation periods or fewer if you prefer a lighter touch. We'll agree a schedule that works for your family's routine and your child's needs.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">How long is each session?</button>
+          <div class="faq-answer">
+            <p>Standard sessions are 60 minutes. For younger children (ages 5–8), we often recommend 45-minute sessions to maintain concentration and engagement. For intensive GCSE or A-Level revision, 90-minute sessions can be arranged. Session length is agreed at the outset and can be adjusted as your child grows.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Will I get feedback after sessions?</button>
+          <div class="faq-answer">
+            <p>Yes — always. After each session your tutor will provide a brief written summary covering what was worked on, what progress was made, any areas that need further attention, and suggested activities or exercises for your child to do before the next session. We believe open communication with parents is essential to a successful tutoring relationship.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">What if my child has special educational needs?</button>
+          <div class="faq-answer">
+            <p>Our tutors have awareness training in supporting learners with a range of needs including dyslexia, ADHD, autism spectrum conditions, and anxiety. If your child has specific needs, please mention this when you get in touch so we can ensure we're well-placed to support them. We will always be honest with you about what we can and cannot offer.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">How do I get started?</button>
+          <div class="faq-answer">
+            <p>Simply send us a message using the form on this page, or email <a href="mailto:enrol@homeeducatorstutoring.com" style="color:var(--gold); font-weight:bold;">enrol@homeeducatorstutoring.com</a>. Tell us your child's age, the subjects you need support with, and a brief note about your goals. We'll be back in touch within one working day to arrange your free trial session.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA BANNER ════════════════════════════════════════ -->
+  <section class="cta-banner">
+    <div class="container" style="position:relative;z-index:1;">
+      <h2>Still Have Questions?</h2>
+      <p>We're happy to have a conversation before you commit to anything. Drop us a message and we'll get back to you promptly.</p>
+      <div class="btn-actions">
+        <a href="mailto:info@homeeducatorstutoring.com" class="btn btn-primary">Email Us</a>
+        <a href="mailto:trial@homeeducatorstutoring.com" class="btn btn-outline">Book a Free Trial</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="Home Educators Tutoring" height="38" style="filter:brightness(0) invert(1) opacity(0.85);">
+        <p>Specialist tutoring for home-educated children aged 5–18. Qualified, DBS-checked tutors delivering flexible, personalised sessions online and in person.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Subjects</h4>
+        <ul class="footer-links">
+          <li><a href="services.html">English</a></li>
+          <li><a href="services.html">Maths</a></li>
+          <li><a href="services.html">Sciences</a></li>
+          <li><a href="services.html">Humanities</a></li>
+          <li><a href="services.html">Exam Preparation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <div class="footer-email">
+          <p>Enrolments</p>
+          <a href="mailto:enrol@homeeducatorstutoring.com">enrol@homeeducatorstutoring.com</a>
+          <p>Trial Lessons</p>
+          <a href="mailto:trial@homeeducatorstutoring.com">trial@homeeducatorstutoring.com</a>
+          <p>General Enquiries</p>
+          <a href="mailto:info@homeeducatorstutoring.com">info@homeeducatorstutoring.com</a>
+          <p>Phone</p>
+          <a href="tel:+447984568080">+44 7984 568 080</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2024 Home Educators Tutoring. All rights reserved.</span>
+      <span><a href="contact.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="contact.html">Terms of Service</a></span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
