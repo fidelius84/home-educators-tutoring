@@ -42,7 +42,7 @@
   <!-- ═══════════════════════════════════════ -->
 
   <!-- Primary: Home Educators -->
-  <text x="122" y="50" class="ht" font-size="26" font-weight="bold" fill="#1B3A6B" letter-spacing="0.4">Home Educators</text>
+  <text x="122" y="50" class="ht" font-size="26" font-weight="bold" fill="#FFFFFF" letter-spacing="0.4">Home Educators</text>
 
   <!-- Gold hairline rule -->
   <line x1="122" y1="58" x2="478" y2="58" stroke="#C9A84C" stroke-width="0.8" opacity="0.6"/>
